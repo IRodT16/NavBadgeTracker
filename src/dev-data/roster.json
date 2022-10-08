@@ -1,0 +1,50 @@
+[
+  {
+    "navigatorName": "Harry Kane",
+    "navigatorLevel": "Senior",
+    "badgesCompleted": ["Sailing", "Climbing", "Sewing", "Archery"],
+    "badgesInProgress": ["Coding", "Cooking"]
+  },
+  {
+    "navigatorName": "Heung Min Son",
+    "navigatorLevel": "Senior",
+    "badgesCompleted": ["Sailing", "Climbing"],
+    "badgesInProgress": ["Coding", "Archery", "Cooking"]
+  },
+  {
+    "navigatorName": "Ivan Peresic",
+    "navigatorLevel": "Stargazer",
+    "badgesCompleted": ["Sailing", "Sewing"],
+    "badgesInProgress": ["Coding", "Archery"]
+  },
+  {
+    "navigatorName": "Eric Dier",
+    "navigatorLevel": "Senior",
+    "badgesCompleted": ["Sailing", "Climbing", "Sewing"],
+    "badgesInProgress": ["Coding", "Archery", "Cooking"]
+  },
+  {
+    "navigatorName": "Pierre Emile Hoiberg",
+    "navigatorLevel": "Senior",
+    "badgesCompleted": ["Sailing", "Sewing"],
+    "badgesInProgress": ["Coding", "Archery", "Cooking"]
+  },
+  {
+    "navigatorName": "Dejan Kuluscevski",
+    "navigatorLevel": "Junior",
+    "badgesCompleted": ["Sailing", "Sewing"],
+    "badgesInProgress": ["Coding"]
+  },
+  {
+    "navigatorName": "Christian Romero",
+    "navigatorLevel": "Junior",
+    "badgesCompleted": ["Sailing", "Climbing", "Sewing"],
+    "badgesInProgress": ["Coding", "Archery", "Cooking"]
+  },
+  {
+    "navigatorName": "Hugo Lloris",
+    "navigatorLevel": "Senior",
+    "badgesCompleted": ["Sewing"],
+    "badgesInProgress": ["Coding", "Archery", "Cooking"]
+  }
+]

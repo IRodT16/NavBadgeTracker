@@ -1,0 +1,11 @@
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 4rem;
+  transform: translate(-50%, -50%);
+  height: 75%;
+  width: 85%;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.646);
+}
