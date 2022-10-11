@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import styles from './main.module.css';
-import Roster from './roster';
-import Stats from './navigatorStats';
+import Roster from './roster/roster';
+import Stats from './navigator/navigatorStats';
 import data from '../dev-data/roster.json';
 import Navigation from './navigation';
-import Dashboard from './dashboard';
-import Calendar from './calendar';
+import Dashboard from './dashboard/dashboard';
+import Calendar from './calendar/calendar';
 
 function Main(props) {
   const [path, setPath] = useState('dashboard');

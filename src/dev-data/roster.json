@@ -44,7 +44,10 @@
   {
     "navigatorName": "Hugo Lloris",
     "navigatorLevel": "Senior",
-    "badgesCompleted": ["Sewing"],
+    "badgesCompleted": [
+      { "Sewing": ["a", "c", "d", "e"] },
+      { "coding": ["a", "c", "d", "f"] }
+    ],
     "badgesInProgress": ["Coding", "Archery", "Cooking"]
   }
 ]

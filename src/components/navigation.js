@@ -21,6 +21,7 @@ const Navigation = (props) => {
         <li onClick={rosterHandler} className={styles.navListItem}>
           Roster
         </li>
+        <li className={styles.navListItem}>Badge Tracker</li>
         <li onClick={calendarHandler} className={styles.navListItem}>
           Calendar
         </li>
