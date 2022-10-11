@@ -1,0 +1,70 @@
+p {
+  color: white;
+  font-size: 2rem;
+}
+h4 {
+  color: white;
+  font-size: 2.4rem;
+}
+
+.navigator {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.completedBadges {
+  padding: 2.4rem;
+  display: flex;
+}
+.badgesInProgress {
+  padding: 2.4rem;
+  display: flex;
+}
+
+.badge {
+  height: 12rem;
+  width: 12rem;
+  transform: rotate(-45deg);
+}
+
+.completedBadgeOutline {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  height: 8rem;
+  width: 8rem;
+
+  border: solid rgb(24, 197, 24) 5px;
+  transform: rotate(45deg);
+  box-shadow: 2px 4px 2px 1px rgba(16, 17, 16, 0.393);
+}
+
+.badgeInProgressOutline {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  height: 8rem;
+  width: 8rem;
+
+  border: solid rgba(255, 255, 255, 0.441) 5px;
+  transform: rotate(45deg);
+  border-right: solid rgb(24, 197, 24) 5px;
+  border-top: solid rgb(24, 197, 24) 5px;
+}
+.badgeInProgress {
+  height: 12rem;
+  width: 12rem;
+  /* opacity: 40%; */
+  filter: grayscale(90%);
+  opacity: 90%;
+
+  transform: rotate(-45deg);
+}

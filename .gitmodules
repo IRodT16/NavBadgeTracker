@@ -1,0 +1,3 @@
+[submodule "path_to_submodule"] 
+  path = path_to_submodule 
+  url = https://github.com/IRodT16/Badge-Tracking-App

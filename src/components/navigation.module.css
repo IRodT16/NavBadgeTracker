@@ -22,3 +22,7 @@
 .navListItem {
   padding-right: 4rem;
 }
+
+.navListItem:hover {
+  color: #2b8a3e;
+}

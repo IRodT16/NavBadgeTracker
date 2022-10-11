@@ -2,19 +2,19 @@
   {
     "navigatorName": "Harry Kane",
     "navigatorLevel": "Senior",
-    "badgesCompleted": ["Sailing", "Climbing", "Sewing", "Archery"],
+    "badgesCompleted": ["Hobbies", "Survival", "Archery"],
     "badgesInProgress": ["Coding", "Cooking"]
   },
   {
     "navigatorName": "Heung Min Son",
     "navigatorLevel": "Senior",
     "badgesCompleted": ["Sailing", "Climbing"],
-    "badgesInProgress": ["Coding", "Archery", "Cooking"]
+    "badgesInProgress": ["Coding", "Archery"]
   },
   {
     "navigatorName": "Ivan Peresic",
     "navigatorLevel": "Stargazer",
-    "badgesCompleted": ["Sailing", "Sewing"],
+    "badgesCompleted": ["Sailing", "Sewing", "Bugs"],
     "badgesInProgress": ["Coding", "Archery"]
   },
   {

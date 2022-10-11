@@ -1,9 +1,8 @@
 import styles from './wrapper.module.css';
 import backgroundVideo from '../video/mountain-trail.mp4';
-import Navigation from './navigation';
 import Main from './main';
 
-function Wrapper() {
+function Wrapper(props) {
   return (
     <div className={styles.wrapper}>
       <video
@@ -15,7 +14,7 @@ function Wrapper() {
         src={backgroundVideo}
         type="video/mp4"
       />
-      <Navigation />
+
       <Main />
     </div>
   );
