@@ -2,47 +2,47 @@
   {
     "navigatorName": "Harry Kane",
     "navigatorLevel": "Senior",
-    "badgesCompleted": ["Hobbies", "Survival", "Archery"],
-    "badgesInProgress": ["Coding", "Cooking"],
+    "badgesCompleted": ["Camping", "Boating", "Knots"],
+    "badgesInProgress": ["Coding"],
     "navigatorWaiver": true,
     "navigatorDues": true
   },
   {
     "navigatorName": "Heung Min Son",
     "navigatorLevel": "Senior",
-    "badgesCompleted": ["Sailing", "Climbing"],
-    "badgesInProgress": ["Coding", "Archery"],
+    "badgesCompleted": ["Boating", "Climbing", "Bugs"],
+    "badgesInProgress": ["Coding", "Knots"],
     "navigatorWaiver": true,
     "navigatorDues": true
   },
   {
     "navigatorName": "Ivan Peresic",
     "navigatorLevel": "Stargazer",
-    "badgesCompleted": ["Sailing", "Sewing", "Bugs"],
-    "badgesInProgress": ["Coding", "Archery"],
+    "badgesCompleted": ["Boating", "Camping", "Bugs"],
+    "badgesInProgress": ["Coding", "Knots"],
     "navigatorWaiver": true,
     "navigatorDues": false
   },
   {
     "navigatorName": "Eric Dier",
     "navigatorLevel": "Senior",
-    "badgesCompleted": ["Sailing", "Climbing", "Sewing"],
-    "badgesInProgress": ["Coding", "Archery", "Cooking"],
+    "badgesCompleted": ["Boating", "Camping"],
+    "badgesInProgress": ["Coding", "Knots", "Bugs"],
     "navigatorWaiver": true,
     "navigatorDues": true
   },
   {
     "navigatorName": "Pierre Emile Hoiberg",
     "navigatorLevel": "Senior",
-    "badgesCompleted": ["Sailing", "Sewing"],
-    "badgesInProgress": ["Coding", "Archery", "Cooking"],
+    "badgesCompleted": ["Boating", "Camping"],
+    "badgesInProgress": ["Coding", "Knots", "Bugs"],
     "navigatorWaiver": true,
     "navigatorDues": true
   },
   {
     "navigatorName": "Dejan Kuluscevski",
     "navigatorLevel": "Junior",
-    "badgesCompleted": ["Sailing", "Sewing"],
+    "badgesCompleted": ["Boating", "Camping"],
     "badgesInProgress": ["Coding"],
     "navigatorWaiver": false,
     "navigatorDues": false
@@ -50,16 +50,16 @@
   {
     "navigatorName": "Christian Romero",
     "navigatorLevel": "Junior",
-    "badgesCompleted": ["Sailing", "Climbing", "Sewing"],
-    "badgesInProgress": ["Coding", "Archery", "Cooking"],
+    "badgesCompleted": ["Boating", "Camping"],
+    "badgesInProgress": ["Coding", "Knots", "Bugs"],
     "navigatorWaiver": true,
     "navigatorDues": false
   },
   {
     "navigatorName": "Hugo Lloris",
     "navigatorLevel": "Senior",
-    "badgesCompleted": ["sewing", "boating"],
-    "badgesInProgress": ["Coding", "Archery", "Cooking"],
+    "badgesCompleted": ["Camping", "Bugs"],
+    "badgesInProgress": ["Coding", "Knots"],
     "navigatorWaiver": false,
     "navigatorDues": true
   }

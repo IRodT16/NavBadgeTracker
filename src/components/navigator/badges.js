@@ -1,10 +1,10 @@
 import styles from './badges.module.css';
 
 function Badges(props) {
-  const badgeSelect = (el) => {
-    // props.setStats(el);
-
-    props.setPath('badgeDetails');
+  const badgeSelect = (el, i) => {
+    // props.setBadgeDetails(el.)
+    console.log(props.stats.el.badgesCompleted);
+    // props.setPath('badgeDetails');
   };
 
   return (
@@ -12,65 +12,46 @@ function Badges(props) {
       <div>
         <div className={styles.completedBadges}>
           <h4>Completd Badges</h4>
-          <div className={styles.completedBadgeOutline}>
-            <img
+
+          {/* <img
               onClick={badgeSelect}
               className={styles.badge}
-              src={require(`../../badges/Badges/BugsSenior.png`)}
+              src={require(`../../img/badges/Knots_badges_stargazer.png`)}
               alt="Insert Here Badge"
-            />
-          </div>
+            /> */}
 
-          <div className={styles.completedBadgeOutline}>
-            <img
-              className={styles.badge}
-              src={require(`../../badges/Badges/BugsSenior.png`)}
-              alt="Insert Here Badge"
-            />
-          </div>
-
-          <div className={styles.completedBadgeOutline}>
-            <img
-              className={styles.badge}
-              src={require(`../../badges/Badges/BugsSenior.png`)}
-              alt="Insert Here Badge"
-            />
-          </div>
-
-          <div className={styles.completedBadgeOutline}>
-            <img
-              className={styles.badge}
-              src={require(`../../badges/Badges/BugsSenior.png`)}
-              alt="Insert Here Badge"
-            />
-          </div>
+          {props.stats.badgesCompleted.map((img, i) => {
+            return (
+              <div className={styles.completedBadgeOutline}>
+                <img
+                  onClick={badgeSelect}
+                  className={styles.badge}
+                  src={require(`../../img/badges/${
+                    props.stats.badgesCompleted[i]
+                  }_badges_${props.stats.navigatorLevel.toLowerCase()}.png`)}
+                  alt={`badge`}
+                />
+              </div>
+            );
+          })}
         </div>
 
         <div className={styles.badgesInProgress}>
-          <h4>Badges In Progress</h4>
-          <div className={styles.badgeInProgressOutline}>
-            <img
-              className={styles.badgeInProgress}
-              src={require(`../../badges/Badges/BugsSenior.png`)}
-              alt="Insert Here Badge"
-            />
-          </div>
-
-          <div className={styles.badgeInProgressOutline1}>
-            <img
-              className={styles.badgeInProgress}
-              src={require(`../../badges/Badges/BugsSenior.png`)}
-              alt="Insert Here Badge"
-            />
-          </div>
-
-          <div className={styles.badgeInProgressOutline2}>
-            <img
-              className={styles.badgeInProgress}
-              src={require(`../../badges/Badges/BugsSenior.png`)}
-              alt="Insert Here Badge"
-            />
-          </div>
+          <h4>Badges in Progress</h4>
+          {props.stats.badgesInProgress.map((img, i) => {
+            return (
+              <div className={styles.badgeInProgressOutline}>
+                <img
+                  onClick={badgeSelect}
+                  className={styles.badgeInProgress}
+                  src={require(`../../img/badges/${
+                    props.stats.badgesInProgress[i]
+                  }_badges_${props.stats.navigatorLevel.toLowerCase()}.png`)}
+                  alt={`badge`}
+                />
+              </div>
+            );
+          })}
         </div>
       </div>
 

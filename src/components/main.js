@@ -12,6 +12,7 @@ import badgeData from '../dev-data/badge-data.json';
 function Main(props) {
   const [path, setPath] = useState('dashboard');
   const [stats, setStats] = useState();
+  const [badgeDetails, setBadgeDetails] = useState();
   return (
     <div className={styles.main}>
       <Navigation setNavPath={setPath} />
@@ -21,7 +22,9 @@ function Main(props) {
       {path === 'stats' && <Stats stats={stats} setPath={setPath} />}
       {path === 'calendar' && <Calendar />}
       {path === 'dashboard' && <Dashboard />}
-      {path === 'badgeDetails' && <BadgeDetails badgeData={badgeData} />}
+      {path === 'badgeDetails' && (
+        <BadgeDetails badgeData={badgeData} badgeDetails={badgeDetails} />
+      )}
     </div>
   );
 }
