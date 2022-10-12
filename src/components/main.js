@@ -6,6 +6,8 @@ import data from '../dev-data/roster.json';
 import Navigation from './navigation';
 import Dashboard from './dashboard/dashboard';
 import Calendar from './calendar/calendar';
+import BadgeDetails from './badgeDetails/badgeDetails';
+import badgeData from '../dev-data/badge-data.json';
 
 function Main(props) {
   const [path, setPath] = useState('dashboard');
@@ -16,9 +18,10 @@ function Main(props) {
       {path === 'roster' && (
         <Roster setPath={setPath} path={path} data={data} setStats={setStats} />
       )}
-      {path === 'stats' && <Stats stats={stats} />}
+      {path === 'stats' && <Stats stats={stats} setPath={setPath} />}
       {path === 'calendar' && <Calendar />}
       {path === 'dashboard' && <Dashboard />}
+      {path === 'badgeDetails' && <BadgeDetails badgeData={badgeData} />}
     </div>
   );
 }

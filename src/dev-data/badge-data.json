@@ -2,207 +2,198 @@
   {
     "badgeName": "coding",
     "category": "mind",
-    "requirements": [
-      {
-        "stargazer": [
-          {
-            "number": 1,
-            "starred": false,
-            "requirement": "Play a game where you take turns give and following commands. Search for “Simon Says” or the “If/Then/Else Game"
-          },
-          {
-            "number": 2,
-            "starred": false,
-            "requirement": "Share the \"algorithm\" (in words or pictures) for brushing your teeth, washing your hands, or another activity that you perform daily, following a specific sequence."
-          }
-        ]
-      },
-      {
-        "junior": [
-          {
-            "number": 3,
-            "starred": false,
-            "requirement": "Create a bracelet or keychain with your name written in colored beads, coded using the ASCII Binary Alphabet."
-          },
-          {
-            "number": 4,
-            "starred": false,
-            "requirement": "Complete an un-plugged activity where you “program” other Navigators using “commands”. Examples include: a) Algorithm Pictionary using index cards with simple pictures (square, smiley face, tent, sailboat, etc.) in a bag to be drawn by players to provide precise instructions to others. The goal is to have the 2 pictures match as closely as possible. b) Graph Programming. c) Search for \"Move it, ove it!\""
-          },
-          {
-            "number": 5,
-            "starred": false,
-            "requirement": "Play a board game with your chapter or family that teaches programming (such as Qwirkle, Robot Turtles, Code Master, Code Monkey Island, etc)."
-          },
-          {
-            "number": 6,
-            "starred": false,
-            "requirement": "Coplete a visual or performing art project taht explores loops and repeated steps. Search for Loopy Dance Party and Functional Suncatchers. Follow a pattern to knit a potholder or simple hat."
-          },
-          {
-            "number": 7,
-            "starred": false,
-            "requirement": "Use Legos or other building blocks to explore coding. Search for Code a Lego Maze, Complete a Bits & Bricks activity. Write a message with bricks using the ASCII Binary Alphabet."
-          }
-        ]
-      },
-      {
-        "senior": [
-          {
-            "number": 8,
-            "starred": false,
-            "requirement": "Build a simple robot (examples: emotion machine, wobblebot, wigglebot) ( if the robot can successfully navigate a maze; if the robot can demonstrate decision making)"
-          },
-          {
-            "number": 9,
-            "starred": true,
-            "requirement": "Complete an online tutorial or course that uses Javscript. Search for \"Code the News\""
-          },
-          {
-            "number": 10,
-            "starred": true,
-            "requirement": "Search for and complete a unit of Creative Computing."
-          },
-          {
-            "number": 11,
-            "starred": true,
-            "requirement": "Create and publish a website for your chapter using Mozilla Thimble or a related platform."
-          },
-          {
-            "number": 12,
-            "starred": true,
-            "requirement": "Research five careers that require knowledge in programming. Pick one and find out the education, training, and experience required by interviewing someone in this field. Is this a career that you would want to pursue? Why or why not?"
-          },
-          {
-            "number": 13,
-            "starred": true,
-            "requirement": "Use a program like Artist or Scratch to create a computer animation lasting at least 30 seconds."
-          },
-          {
-            "number": 14,
-            "starred": true,
-            "requirement": "Create a video game using Scratch, Python, C/C++ or language of your choice."
-          },
-          {
-            "number": 15,
-            "starred": true,
-            "requirement": "Complete a coding class, a high school level coding class, or a college level coding class."
-          },
-          {
-            "number": 16,
-            "starred": true,
-            "requirement": "Write, debug, and demonstrate a mobile phone application that solves a problem for someone in your community."
-          },
-          {
-            "number": 17,
-            "starred": false,
-            "requirement": "Add an activity your chapter or a member of your chapter designed. Your leaders will need to approve the activity and can award up to 2 stars based on difficulty.."
-          }
-        ]
-      }
-    ]
+    "requirements": {
+      "stargazer": [
+        {
+          "number": 1,
+          "starred": false,
+          "requirement": "Play a game where you take turns give and following commands. Search for “Simon Says” or the “If/Then/Else Game"
+        },
+        {
+          "number": 2,
+          "starred": false,
+          "requirement": "Share the \"algorithm\" (in words or pictures) for brushing your teeth, washing your hands, or another activity that you perform daily, following a specific sequence."
+        }
+      ],
+
+      "junior": [
+        {
+          "number": 3,
+          "starred": false,
+          "requirement": "Create a bracelet or keychain with your name written in colored beads, coded using the ASCII Binary Alphabet."
+        },
+        {
+          "number": 4,
+          "starred": false,
+          "requirement": "Complete an un-plugged activity where you “program” other Navigators using “commands”. Examples include: a) Algorithm Pictionary using index cards with simple pictures (square, smiley face, tent, sailboat, etc.) in a bag to be drawn by players to provide precise instructions to others. The goal is to have the 2 pictures match as closely as possible. b) Graph Programming. c) Search for \"Move it, ove it!\""
+        },
+        {
+          "number": 5,
+          "starred": false,
+          "requirement": "Play a board game with your chapter or family that teaches programming (such as Qwirkle, Robot Turtles, Code Master, Code Monkey Island, etc)."
+        },
+        {
+          "number": 6,
+          "starred": false,
+          "requirement": "Coplete a visual or performing art project taht explores loops and repeated steps. Search for Loopy Dance Party and Functional Suncatchers. Follow a pattern to knit a potholder or simple hat."
+        },
+        {
+          "number": 7,
+          "starred": false,
+          "requirement": "Use Legos or other building blocks to explore coding. Search for Code a Lego Maze, Complete a Bits & Bricks activity. Write a message with bricks using the ASCII Binary Alphabet."
+        }
+      ],
+      "senior": [
+        {
+          "number": 8,
+          "starred": false,
+          "requirement": "Build a simple robot (examples: emotion machine, wobblebot, wigglebot) ( if the robot can successfully navigate a maze; if the robot can demonstrate decision making)"
+        },
+        {
+          "number": 9,
+          "starred": true,
+          "requirement": "Complete an online tutorial or course that uses Javscript. Search for \"Code the News\""
+        },
+        {
+          "number": 10,
+          "starred": true,
+          "requirement": "Search for and complete a unit of Creative Computing."
+        },
+        {
+          "number": 11,
+          "starred": true,
+          "requirement": "Create and publish a website for your chapter using Mozilla Thimble or a related platform."
+        },
+        {
+          "number": 12,
+          "starred": true,
+          "requirement": "Research five careers that require knowledge in programming. Pick one and find out the education, training, and experience required by interviewing someone in this field. Is this a career that you would want to pursue? Why or why not?"
+        },
+        {
+          "number": 13,
+          "starred": true,
+          "requirement": "Use a program like Artist or Scratch to create a computer animation lasting at least 30 seconds."
+        },
+        {
+          "number": 14,
+          "starred": true,
+          "requirement": "Create a video game using Scratch, Python, C/C++ or language of your choice."
+        },
+        {
+          "number": 15,
+          "starred": true,
+          "requirement": "Complete a coding class, a high school level coding class, or a college level coding class."
+        },
+        {
+          "number": 16,
+          "starred": true,
+          "requirement": "Write, debug, and demonstrate a mobile phone application that solves a problem for someone in your community."
+        },
+        {
+          "number": 17,
+          "starred": false,
+          "requirement": "Add an activity your chapter or a member of your chapter designed. Your leaders will need to approve the activity and can award up to 2 stars based on difficulty.."
+        }
+      ]
+    }
   },
   {
     "badgeName": "camping",
     "category": "mind",
-    "requirements": [
-      {
-        "stargazer": [
-          {
-            "number": 1,
-            "starred": false,
-            "requirement": "Identify the different parts of a tent (ground cloth, fly, tent, stakes, etc.). Help raise and take down a tent. Be safe around them (no running by because of hidden trip hazards. Learn what activities can damage them.)"
-          },
-          {
-            "number": 2,
-            "starred": false,
-            "requirement": "Know what to do if you get lost while camping."
-          }
-        ]
-      },
-      {
-        "junior": [
-          {
-            "number": 3,
-            "starred": true,
-            "requirement": "Pitch and take downa  tent without adult assistance."
-          },
-          {
-            "number": 4,
-            "starred": false,
-            "requirement": "Make a part in a skit, song or activity around the campfire."
-          },
-          {
-            "number": 5,
-            "starred": false,
-            "requirement": "Make a packing list for a 2-night camping trip."
-          },
-          {
-            "number": 6,
-            "starred": true,
-            "requirement": "Build & light a campfire appropriate for the location where you are camping. Identify the 3 different types of fuel used for a campfire.Have all necessary supplies for extinguishing the fire at the campfire site before lighting the first match (incl. shovel, water bucket)."
-          },
-          {
-            "number": 7,
-            "starred": false,
-            "requirement": "Make sure that you check the fire danger level every time you go camping."
-          },
-          {
-            "number": 8,
-            "starred": false,
-            "requirement": "Sleep outdoors in a tent for one night."
-          },
-          {
-            "number": 9,
-            "starred": false,
-            "requirement": "Name the fabrics you would want your clothing to be for a summer and winter trip. How many layers of each would you need?"
-          },
-          {
-            "number": 10,
-            "starred": false,
-            "requirement": "Study the occurrence of forest fires in your state or a nearby state. Learn about fire risk levels. If possible attend a presentation by a park ranger or similar."
-          },
-          {
-            "number": 11,
-            "starred": true,
-            "requirement": "Name 5 things you can do to lighten your gear for a backpacking trip (example - cut the handle off your toothbrush or use a lighter kids' toothbrush)."
-          },
-          {
-            "number": 12,
-            "starred": true,
-            "requirement": "What would your packing list be for a lightweight hiking trip? BONUS - look up the gear specifications and get the weight of each item or weigh any items you already own. Can you have a pack under 35 lbs. with food and fuel for 5 days?"
-          }
-        ]
-      },
-      {
-        "senior": [
-          {
-            "number": 13,
-            "starred": true,
-            "requirement": "What plant and animal hazards exist where you will be camping? How do you avoid or prevent problems? What do you do if exposure to the danger occurs?"
-          },
-          {
-            "number": 14,
-            "starred": true,
-            "requirement": "Discuss the features of land that make a good and bad campsite. Discuss what is needed nearby to camp (do you need a water source or are you bringing water in on your own). Where will the restroom be used? How does the need for camp change if you are car camping/ bike packing/car camping/boat camping? Where will you cook and what is your fuel source. Do you need to worry about shelter for lighting/tornadoes/flash flooding/ high tide/or other dangers local to you?"
-          },
-          {
-            "number": 15,
-            "starred": true,
-            "requirement": "Sleep in a tent for 10 nights: they do not have to be consecutive nights. (you may count any camping you have done since you turned 4 years old if you are a Stargazer or Junior, from age 11 on if you are a Senior. (Two Stars: Sleep 10 additional nights in a tent)."
-          },
-          {
-            "number": 16,
-            "starred": true,
-            "requirement": "Make a fire without using a match. Make sure you leave the area with no sign that there was a fire there.(Two Stars: if you successfully use 2 different methods)."
-          },
-          {
-            "number": 17,
-            "starred": false,
-            "requirement": "Add an activity your chapter or a member of your chapter designed. Your leaders will need to approve the activity and can award up to 2 stars based on difficulty."
-          }
-        ]
-      }
-    ]
+    "requirements": {
+      "stargazer": [
+        {
+          "number": 1,
+          "starred": false,
+          "requirement": "Identify the different parts of a tent (ground cloth, fly, tent, stakes, etc.). Help raise and take down a tent. Be safe around them (no running by because of hidden trip hazards. Learn what activities can damage them.)"
+        },
+        {
+          "number": 2,
+          "starred": false,
+          "requirement": "Know what to do if you get lost while camping."
+        }
+      ],
+
+      "junior": [
+        {
+          "number": 3,
+          "starred": true,
+          "requirement": "Pitch and take downa  tent without adult assistance."
+        },
+        {
+          "number": 4,
+          "starred": false,
+          "requirement": "Make a part in a skit, song or activity around the campfire."
+        },
+        {
+          "number": 5,
+          "starred": false,
+          "requirement": "Make a packing list for a 2-night camping trip."
+        },
+        {
+          "number": 6,
+          "starred": true,
+          "requirement": "Build & light a campfire appropriate for the location where you are camping. Identify the 3 different types of fuel used for a campfire.Have all necessary supplies for extinguishing the fire at the campfire site before lighting the first match (incl. shovel, water bucket)."
+        },
+        {
+          "number": 7,
+          "starred": false,
+          "requirement": "Make sure that you check the fire danger level every time you go camping."
+        },
+        {
+          "number": 8,
+          "starred": false,
+          "requirement": "Sleep outdoors in a tent for one night."
+        },
+        {
+          "number": 9,
+          "starred": false,
+          "requirement": "Name the fabrics you would want your clothing to be for a summer and winter trip. How many layers of each would you need?"
+        },
+        {
+          "number": 10,
+          "starred": false,
+          "requirement": "Study the occurrence of forest fires in your state or a nearby state. Learn about fire risk levels. If possible attend a presentation by a park ranger or similar."
+        },
+        {
+          "number": 11,
+          "starred": true,
+          "requirement": "Name 5 things you can do to lighten your gear for a backpacking trip (example - cut the handle off your toothbrush or use a lighter kids' toothbrush)."
+        },
+        {
+          "number": 12,
+          "starred": true,
+          "requirement": "What would your packing list be for a lightweight hiking trip? BONUS - look up the gear specifications and get the weight of each item or weigh any items you already own. Can you have a pack under 35 lbs. with food and fuel for 5 days?"
+        }
+      ],
+
+      "senior": [
+        {
+          "number": 13,
+          "starred": true,
+          "requirement": "What plant and animal hazards exist where you will be camping? How do you avoid or prevent problems? What do you do if exposure to the danger occurs?"
+        },
+        {
+          "number": 14,
+          "starred": true,
+          "requirement": "Discuss the features of land that make a good and bad campsite. Discuss what is needed nearby to camp (do you need a water source or are you bringing water in on your own). Where will the restroom be used? How does the need for camp change if you are car camping/ bike packing/car camping/boat camping? Where will you cook and what is your fuel source. Do you need to worry about shelter for lighting/tornadoes/flash flooding/ high tide/or other dangers local to you?"
+        },
+        {
+          "number": 15,
+          "starred": true,
+          "requirement": "Sleep in a tent for 10 nights: they do not have to be consecutive nights. (you may count any camping you have done since you turned 4 years old if you are a Stargazer or Junior, from age 11 on if you are a Senior. (Two Stars: Sleep 10 additional nights in a tent)."
+        },
+        {
+          "number": 16,
+          "starred": true,
+          "requirement": "Make a fire without using a match. Make sure you leave the area with no sign that there was a fire there.(Two Stars: if you successfully use 2 different methods)."
+        },
+        {
+          "number": 17,
+          "starred": false,
+          "requirement": "Add an activity your chapter or a member of your chapter designed. Your leaders will need to approve the activity and can award up to 2 stars based on difficulty."
+        }
+      ]
+    }
   }
 ]

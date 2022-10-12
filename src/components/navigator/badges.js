@@ -1,6 +1,12 @@
 import styles from './badges.module.css';
 
-function Badges() {
+function Badges(props) {
+  const badgeSelect = (el) => {
+    // props.setStats(el);
+
+    props.setPath('badgeDetails');
+  };
+
   return (
     <div>
       <div>
@@ -8,6 +14,7 @@ function Badges() {
           <h4>Completd Badges</h4>
           <div className={styles.completedBadgeOutline}>
             <img
+              onClick={badgeSelect}
               className={styles.badge}
               src={require(`../../badges/Badges/BugsSenior.png`)}
               alt="Insert Here Badge"

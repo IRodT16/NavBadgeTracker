@@ -1,0 +1,22 @@
+.badgeDetailsMain {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+.badgeRequirements {
+  padding: 1rem;
+  color: white;
+  font-size: 2rem;
+  height: 70%;
+  width: 70%;
+  overflow-y: scroll;
+}
+
+.benchmarks {
+  display: flex;
+  justify-content: center;
+}
+.benchmark {
+  padding: 1.2rem;
+}

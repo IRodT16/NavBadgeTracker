@@ -16,7 +16,7 @@ function Stats(props) {
         <p>Badges In Progress: {props.stats.badgesInProgress}</p>
       </div>
       <div>
-        <Badges />
+        <Badges setPath={props.setPath} />
       </div>
     </div>
   );

@@ -3,51 +3,64 @@
     "navigatorName": "Harry Kane",
     "navigatorLevel": "Senior",
     "badgesCompleted": ["Hobbies", "Survival", "Archery"],
-    "badgesInProgress": ["Coding", "Cooking"]
+    "badgesInProgress": ["Coding", "Cooking"],
+    "navigatorWaiver": true,
+    "navigatorDues": true
   },
   {
     "navigatorName": "Heung Min Son",
     "navigatorLevel": "Senior",
     "badgesCompleted": ["Sailing", "Climbing"],
-    "badgesInProgress": ["Coding", "Archery"]
+    "badgesInProgress": ["Coding", "Archery"],
+    "navigatorWaiver": true,
+    "navigatorDues": true
   },
   {
     "navigatorName": "Ivan Peresic",
     "navigatorLevel": "Stargazer",
     "badgesCompleted": ["Sailing", "Sewing", "Bugs"],
-    "badgesInProgress": ["Coding", "Archery"]
+    "badgesInProgress": ["Coding", "Archery"],
+    "navigatorWaiver": true,
+    "navigatorDues": false
   },
   {
     "navigatorName": "Eric Dier",
     "navigatorLevel": "Senior",
     "badgesCompleted": ["Sailing", "Climbing", "Sewing"],
-    "badgesInProgress": ["Coding", "Archery", "Cooking"]
+    "badgesInProgress": ["Coding", "Archery", "Cooking"],
+    "navigatorWaiver": true,
+    "navigatorDues": true
   },
   {
     "navigatorName": "Pierre Emile Hoiberg",
     "navigatorLevel": "Senior",
     "badgesCompleted": ["Sailing", "Sewing"],
-    "badgesInProgress": ["Coding", "Archery", "Cooking"]
+    "badgesInProgress": ["Coding", "Archery", "Cooking"],
+    "navigatorWaiver": true,
+    "navigatorDues": true
   },
   {
     "navigatorName": "Dejan Kuluscevski",
     "navigatorLevel": "Junior",
     "badgesCompleted": ["Sailing", "Sewing"],
-    "badgesInProgress": ["Coding"]
+    "badgesInProgress": ["Coding"],
+    "navigatorWaiver": false,
+    "navigatorDues": false
   },
   {
     "navigatorName": "Christian Romero",
     "navigatorLevel": "Junior",
     "badgesCompleted": ["Sailing", "Climbing", "Sewing"],
-    "badgesInProgress": ["Coding", "Archery", "Cooking"]
+    "badgesInProgress": ["Coding", "Archery", "Cooking"],
+    "navigatorWaiver": true,
+    "navigatorDues": false
   },
   {
     "navigatorName": "Hugo Lloris",
     "navigatorLevel": "Senior",
-    "badgesCompleted": [
-      { "Sewing": ["a", "c", "d", "e"] },
-      { "coding": ["a", "c", "d", "f"] }
-    ],
-    "badgesInProgress": ["Coding", "Archery", "Cooking"]
+    "badgesCompleted": ["sewing", "boating"],
+    "badgesInProgress": ["Coding", "Archery", "Cooking"],
+    "navigatorWaiver": false,
+    "navigatorDues": true
   }
 ]
