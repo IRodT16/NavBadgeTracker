@@ -10,7 +10,7 @@
   {
     "navigatorName": "Heung Min Son",
     "navigatorLevel": "Senior",
-    "badgesCompleted": ["Boating", "Climbing", "Bugs"],
+    "badgesCompleted": ["Boating", "Coding", "Bugs"],
     "badgesInProgress": ["Coding", "Knots"],
     "navigatorWaiver": true,
     "navigatorDues": true
@@ -18,7 +18,7 @@
   {
     "navigatorName": "Ivan Peresic",
     "navigatorLevel": "Stargazer",
-    "badgesCompleted": ["Boating", "Camping", "Bugs"],
+    "badgesCompleted": ["Boating", "Camping", "Bugs", "Coding"],
     "badgesInProgress": ["Coding", "Knots"],
     "navigatorWaiver": true,
     "navigatorDues": false

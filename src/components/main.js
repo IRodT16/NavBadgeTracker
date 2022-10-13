@@ -12,18 +12,32 @@ import badgeData from '../dev-data/badge-data.json';
 function Main(props) {
   const [path, setPath] = useState('dashboard');
   const [stats, setStats] = useState();
-  const [badgeDetails, setBadgeDetails] = useState();
+  const [badgeName, setBadgeName] = useState();
+  const [navigatorLevel, setNavigatorLevel] = useState();
+
   return (
     <div className={styles.main}>
       <Navigation setNavPath={setPath} />
       {path === 'roster' && (
-        <Roster setPath={setPath} path={path} data={data} setStats={setStats} />
+        <Roster
+          setPath={setPath}
+          path={path}
+          data={data}
+          setStats={setStats}
+          setNavigatorLevel={setNavigatorLevel}
+        />
       )}
-      {path === 'stats' && <Stats stats={stats} setPath={setPath} />}
+      {path === 'stats' && (
+        <Stats stats={stats} setPath={setPath} setBadgeName={setBadgeName} />
+      )}
       {path === 'calendar' && <Calendar />}
       {path === 'dashboard' && <Dashboard />}
       {path === 'badgeDetails' && (
-        <BadgeDetails badgeData={badgeData} badgeDetails={badgeDetails} />
+        <BadgeDetails
+          badgeData={badgeData}
+          badgeName={badgeName}
+          navigatorLevel={navigatorLevel}
+        />
       )}
     </div>
   );

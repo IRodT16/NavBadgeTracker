@@ -1,7 +1,8 @@
 import styles from './badgeDetails.module.css';
 
 function BadgeDetails(props) {
-  //   const singleBadge = props.badgeData[0];
+  let navLevel = props.navigatorLevel.toLowerCase();
+
   return (
     <div className={styles.badgeDetailsMain}>
       <div>
@@ -9,6 +10,20 @@ function BadgeDetails(props) {
       </div>
 
       <div className={styles.badgeRequirements}>
+        <h2>{props.badgeName}</h2>
+        {props.badgeData[0].Badges[props.badgeName].requirements[navLevel].map(
+          (res) => {
+            return (
+              <div className={styles.benchmarks}>
+                <p className={styles.benchmark}>{res.number}</p>
+                <p className={styles.benchmark}>{res.requirement}</p>
+              </div>
+            );
+          }
+        )}
+      </div>
+
+      {/* <div className={styles.badgeRequirements}>
         {props.badgeData.map((res, i) => {
           return (
             <div>
@@ -24,7 +39,7 @@ function BadgeDetails(props) {
             </div>
           );
         })}
-      </div>
+      </div> */}
     </div>
   );
 }

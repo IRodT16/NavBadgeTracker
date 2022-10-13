@@ -2,11 +2,6 @@ import styles from './navigatorStats.module.css';
 import Badges from './badges';
 
 function Stats(props) {
-  const testMap = () =>
-    props.stats.badgesCompleted.map((i) => {
-      return console.log(i);
-    });
-  testMap();
   return (
     <div className={styles.navigator}>
       <div>
@@ -16,7 +11,11 @@ function Stats(props) {
         <p>Badges In Progress: {props.stats.badgesInProgress}</p>
       </div>
       <div>
-        <Badges setPath={props.setPath} stats={props.stats} />
+        <Badges
+          setPath={props.setPath}
+          stats={props.stats}
+          setBadgeName={props.setBadgeName}
+        />
       </div>
     </div>
   );

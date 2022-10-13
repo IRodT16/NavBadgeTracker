@@ -5,6 +5,7 @@ function Roster(props) {
   const navigatorSelect = (el) => {
     props.setStats(el);
 
+    props.setNavigatorLevel(el.navigatorLevel);
     props.setPath('stats');
   };
 

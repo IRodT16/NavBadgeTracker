@@ -1,10 +1,9 @@
 import styles from './badges.module.css';
 
 function Badges(props) {
-  const badgeSelect = (el, i) => {
-    // props.setBadgeDetails(el.)
-    console.log(props.stats.el.badgesCompleted);
-    // props.setPath('badgeDetails');
+  const badgeSelect = (el) => {
+    props.setBadgeName(el.target.name);
+    props.setPath('badgeDetails');
   };
 
   return (
@@ -24,6 +23,7 @@ function Badges(props) {
             return (
               <div className={styles.completedBadgeOutline}>
                 <img
+                  name={`${props.stats.badgesCompleted[i]}`}
                   onClick={badgeSelect}
                   className={styles.badge}
                   src={require(`../../img/badges/${
