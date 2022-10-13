@@ -38,8 +38,8 @@
 
   border: solid rgba(255, 255, 255, 0.441) 5px;
   transform: rotate(45deg);
-  border-right: solid #ffd43b 5px;
-  border-top: solid #ffd43b 5px;
+  border-right: solid #ffd43b 6px;
+  border-top: solid #ffd43b 6px;
   box-shadow: 2px 4px 2px 1px rgba(16, 17, 16, 0.393);
 }
 .badgeInProgress {

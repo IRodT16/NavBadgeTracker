@@ -21,8 +21,9 @@
 }
 .navListItem {
   padding-right: 4rem;
+  font-weight: bold;
 }
 
 .navListItem:hover {
-  color: #2b8a3e;
+  color: #ffd43b;
 }

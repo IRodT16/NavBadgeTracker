@@ -4,18 +4,22 @@ function BadgeDetails(props) {
   let navLevel = props.navigatorLevel.toLowerCase();
 
   return (
-    <div className={styles.badgeDetailsMain}>
+    <form className={styles.badgeDetailsMain}>
       <div>
-        <h1>Badge Requirements Page</h1>
+        <button>Back to Navigator</button>
+        <h1>
+          {props.navigatorLevel} {props.badgeName} Badge Requirements
+        </h1>
+        <button>Submit New Benchmarks</button>
       </div>
 
       <div className={styles.badgeRequirements}>
-        <h2>{props.badgeName}</h2>
         {props.badgeData[0].Badges[props.badgeName].requirements[navLevel].map(
           (res) => {
             return (
               <div className={styles.benchmarks}>
-                <p className={styles.benchmark}>{res.number}</p>
+                <input type="checkbox" className={styles.checkbox} />
+                <p className={styles.number}>{res.number}</p>
                 <p className={styles.benchmark}>{res.requirement}</p>
               </div>
             );
@@ -40,7 +44,7 @@ function BadgeDetails(props) {
           );
         })}
       </div> */}
-    </div>
+    </form>
   );
 }
 

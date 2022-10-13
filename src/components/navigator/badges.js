@@ -12,13 +12,6 @@ function Badges(props) {
         <div className={styles.completedBadges}>
           <h4>Completd Badges</h4>
 
-          {/* <img
-              onClick={badgeSelect}
-              className={styles.badge}
-              src={require(`../../img/badges/Knots_badges_stargazer.png`)}
-              alt="Insert Here Badge"
-            /> */}
-
           {props.stats.badgesCompleted.map((img, i) => {
             return (
               <div className={styles.completedBadgeOutline}>
@@ -42,6 +35,7 @@ function Badges(props) {
             return (
               <div className={styles.badgeInProgressOutline}>
                 <img
+                  name={`${props.stats.badgesInProgress[i]}`}
                   onClick={badgeSelect}
                   className={styles.badgeInProgress}
                   src={require(`../../img/badges/${
