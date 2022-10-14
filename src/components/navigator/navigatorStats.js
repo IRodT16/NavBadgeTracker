@@ -16,6 +16,7 @@ function Stats(props) {
           setPath={props.setPath}
           stats={props.stats}
           setBadgeName={props.setBadgeName}
+          setBenchmarks={props.setBenchmarks}
         />
       </div>
     </div>

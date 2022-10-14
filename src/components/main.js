@@ -14,6 +14,7 @@ function Main(props) {
   const [stats, setStats] = useState();
   const [badgeName, setBadgeName] = useState();
   const [navigatorLevel, setNavigatorLevel] = useState();
+  const [benchmarks, setBenchmarks] = useState();
 
   return (
     <div className={styles.main}>
@@ -28,7 +29,12 @@ function Main(props) {
         />
       )}
       {path === 'stats' && (
-        <Stats stats={stats} setPath={setPath} setBadgeName={setBadgeName} />
+        <Stats
+          stats={stats}
+          setPath={setPath}
+          setBadgeName={setBadgeName}
+          setBenchmarks={setBenchmarks}
+        />
       )}
       {path === 'calendar' && <Calendar />}
       {path === 'dashboard' && <Dashboard />}
@@ -37,6 +43,7 @@ function Main(props) {
           badgeData={badgeData}
           badgeName={badgeName}
           navigatorLevel={navigatorLevel}
+          benchmarks={benchmarks}
         />
       )}
     </div>

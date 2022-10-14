@@ -4,7 +4,9 @@ function Badges(props) {
   const badgeSelect = (el) => {
     props.setBadgeName(el.target.name);
     props.setPath('badgeDetails');
+    props.setBenchmarks(props.stats.benchmarkTest);
   };
+  console.log(props.stats.benchmarkTest);
 
   return (
     <div>

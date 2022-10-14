@@ -25,9 +25,15 @@ h1 {
   width: 70%;
   height: 70%;
   align-items: center;
+  border-collapse: collapse;
+  border-spacing: 0 50px;
+  overflow-y: scroll;
 }
-.names {
+.tHeader {
   /* margin-right: 4rem; */
+  border-collapse: separate;
+  margin-bottom: 2.4rem;
+  padding: 1.6rem;
 }
 .names:hover {
   color: #2b8a3e;
@@ -38,13 +44,19 @@ td {
 }
 thead {
   margin-bottom: 4rem;
+  padding: 2.4rem;
 }
 
 tr {
   display: table-row;
   /* justify-content: space-evenly; */
-
+  border-bottom: 2px solid grey;
   align-items: center;
+  margin-top: 2.4rem;
+}
+
+.rosterRow {
+  border-bottom: 2px solid grey;
 }
 
 .navigatorLevel {

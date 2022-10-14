@@ -2,6 +2,14 @@ import styles from './badgeDetails.module.css';
 
 function BadgeDetails(props) {
   let navLevel = props.navigatorLevel.toLowerCase();
+  let badge = props.badgeName.toLowerCase();
+  let benchmarkArray = props.benchmarks[badge];
+  let benchmarkNumber =
+    props.badgeData[0].Badges[props.badgeName].requirements[navLevel];
+
+  const testValHandle = (el) => {
+    console.log(el.target.value);
+  };
 
   return (
     <form className={styles.badgeDetailsMain}>
@@ -14,17 +22,33 @@ function BadgeDetails(props) {
       </div>
 
       <div className={styles.badgeRequirements}>
-        {props.badgeData[0].Badges[props.badgeName].requirements[navLevel].map(
-          (res) => {
-            return (
-              <div className={styles.benchmarks}>
-                <input type="checkbox" className={styles.checkbox} />
-                <p className={styles.number}>{res.number}</p>
-                <p className={styles.benchmark}>{res.requirement}</p>
+        {benchmarkNumber.map((res, i) => {
+          return (
+            <div className={styles.benchmarks}>
+              <div>
+                {benchmarkArray.includes(res.number) ? (
+                  <input
+                    onClick={testValHandle}
+                    type="checkbox"
+                    className={styles.checkbox}
+                    checked="checked"
+                    value={res.number}
+                  />
+                ) : (
+                  <input
+                    onClick={testValHandle}
+                    type="checkbox"
+                    className={styles.checkbox}
+                    value={res.number}
+                    // checked="checked"
+                  />
+                )}
               </div>
-            );
-          }
-        )}
+              <p className={styles.number}>{res.number}</p>
+              <p className={styles.benchmark}>{res.requirement}</p>
+            </div>
+          );
+        })}
       </div>
 
       {/* <div className={styles.badgeRequirements}>

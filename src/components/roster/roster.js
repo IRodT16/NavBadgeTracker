@@ -14,7 +14,7 @@ function Roster(props) {
       <div className={styles.tableWrapper}>
         {/* <h1>Navigators Roster</h1> */}
         <table className={styles.rosterNames}>
-          <thead>
+          <thead className={styles.tHeader}>
             <tr>
               <th>Navigator Name</th>
               <th>Navigator Level</th>
@@ -22,10 +22,10 @@ function Roster(props) {
               <th>Dues</th>
             </tr>
           </thead>
-          {props.data.map((res, i) => {
-            return (
-              <tbody key={res.navigatorName}>
-                <tr>
+          <tbody>
+            {props.data.map((res, i) => {
+              return (
+                <tr className={styles.rosterRow}>
                   <td
                     className={styles.names}
                     onClick={() => {
@@ -53,27 +53,10 @@ function Roster(props) {
                       <ion-icon name="close-outline"></ion-icon>
                     )}
                   </td>
-
-                  {/* <div>
-                  {res.badgesCompleted.map(() => {
-                    return (
-                      <td>
-                        <ion-icon name="star"></ion-icon>
-                      </td>
-                    );
-                  })}
-                  {res.badgesInProgress.map(() => {
-                    return (
-                      <td>
-                        <ion-icon name="star-half"></ion-icon>
-                      </td>
-                    );
-                  })}
-                </div> */}
                 </tr>
-              </tbody>
-            );
-          })}
+              );
+            })}
+          </tbody>
         </table>
       </div>
     </div>
@@ -81,3 +64,5 @@ function Roster(props) {
 }
 
 export default Roster;
+
+// key={res.navigatorName}

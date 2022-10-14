@@ -2,7 +2,12 @@
   {
     "navigatorName": "Harry Kane",
     "navigatorLevel": "Senior",
-    "badgesCompleted": ["Camping", "Boating", "Knots"],
+    "badgesCompleted": ["Coding", "Camping", "Knots"],
+    "benchmarkTest": {
+      "coding": [10, 12, 16],
+      "camping": [11, 15, 17],
+      "knots": [10, 12, 13]
+    },
     "badgesInProgress": ["Coding"],
     "navigatorWaiver": true,
     "navigatorDues": true
@@ -11,6 +16,11 @@
     "navigatorName": "Heung Min Son",
     "navigatorLevel": "Senior",
     "badgesCompleted": ["Boating", "Coding", "Bugs"],
+    "benchmarkTest": {
+      "coding": [14, 12, 11],
+      "boating": [18, 15, 17],
+      "knots": [10, 12, 13]
+    },
     "badgesInProgress": ["Coding", "Knots"],
     "navigatorWaiver": true,
     "navigatorDues": true
