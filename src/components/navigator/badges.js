@@ -6,7 +6,8 @@ function Badges(props) {
     props.setPath('badgeDetails');
     props.setBenchmarks(props.stats.benchmarkTest);
   };
-  console.log(props.stats.benchmarkTest);
+
+  console.log(props.outlineInfo);
 
   return (
     <div>

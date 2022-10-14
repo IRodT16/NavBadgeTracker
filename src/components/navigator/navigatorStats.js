@@ -2,6 +2,9 @@ import styles from './navigatorStats.module.css';
 import Badges from './badges';
 
 function Stats(props) {
+  console.log(props.stats.benchmarkProgressTest.camping);
+  let inProgressBenchmarks = props.stats.benchmarkProgressTest.camping.length;
+  console.log(inProgressBenchmarks);
   return (
     <div className={styles.navigator}>
       <div>
@@ -17,6 +20,7 @@ function Stats(props) {
           stats={props.stats}
           setBadgeName={props.setBadgeName}
           setBenchmarks={props.setBenchmarks}
+          outlineInfo={inProgressBenchmarks}
         />
       </div>
     </div>

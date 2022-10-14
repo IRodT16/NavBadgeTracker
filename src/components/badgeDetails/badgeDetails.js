@@ -10,11 +10,14 @@ function BadgeDetails(props) {
   const testValHandle = (el) => {
     console.log(el.target.value);
   };
+  const navReturnHandler = () => {
+    props.setPath('stats');
+  };
 
   return (
     <form className={styles.badgeDetailsMain}>
       <div>
-        <button>Back to Navigator</button>
+        <button onClick={navReturnHandler}>Back to Navigator</button>
         <h1>
           {props.navigatorLevel} {props.badgeName} Badge Requirements
         </h1>

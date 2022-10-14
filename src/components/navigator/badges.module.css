@@ -35,12 +35,38 @@
   padding: 0;
   height: 8rem;
   width: 8rem;
-
   border: solid rgba(255, 255, 255, 0.441) 5px;
   transform: rotate(45deg);
+  box-shadow: 2px 4px 2px 1px rgba(16, 17, 16, 0.393);
+}
+.twoComplete {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  height: 8rem;
+  width: 8rem;
+  border: solid rgba(255, 255, 255, 0.441) 5px;
+  transform: rotate(45deg);
+  box-shadow: 2px 4px 2px 1px rgba(16, 17, 16, 0.393);
   border-right: solid #ffd43b 6px;
   border-top: solid #ffd43b 6px;
+}
+.threeComplete {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  height: 8rem;
+  width: 8rem;
+  border: solid rgba(255, 255, 255, 0.441) 5px;
+  transform: rotate(45deg);
   box-shadow: 2px 4px 2px 1px rgba(16, 17, 16, 0.393);
+  border-right: solid #ffd43b 6px;
+  border-top: solid #ffd43b 6px;
+  border-left: solid #ffd43b 6px;
 }
 .badgeInProgress {
   height: 12rem;

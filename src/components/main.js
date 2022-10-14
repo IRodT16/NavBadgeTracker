@@ -34,6 +34,7 @@ function Main(props) {
           setPath={setPath}
           setBadgeName={setBadgeName}
           setBenchmarks={setBenchmarks}
+          benchmarks={benchmarks}
         />
       )}
       {path === 'calendar' && <Calendar />}
@@ -44,6 +45,7 @@ function Main(props) {
           badgeName={badgeName}
           navigatorLevel={navigatorLevel}
           benchmarks={benchmarks}
+          setPath={setPath}
         />
       )}
     </div>
